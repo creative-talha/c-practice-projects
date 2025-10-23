@@ -5,9 +5,7 @@
   description:
     Prints a mirrored alphabet triangle pattern using ASCII letters.
     Example output for max = 'G' (top row has no center space, subsequent rows have 1,3,5... spaces).
-  usage:
-    gcc patterns/alphabet_triangle.c -o alphabet_triangle
-    ./alphabet_triangle
+  
 */
 
 #include<stdio.h>
