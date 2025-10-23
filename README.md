@@ -8,6 +8,10 @@ This repository contains my practice codes written in C language — small progr
 - **Arrays** – 2D arrays and sorting.
 - **Prime Numbers** – Prime number finder up to N, etc.
 
-## 💻 Example
-Example output of one program (`alphabet_triangle.c`):
 
+
+
+## 🔧 How to Compile and Run
+```bash
+gcc filename.c -o output
+./output
