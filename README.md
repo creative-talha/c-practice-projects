@@ -1,17 +1,13 @@
 # C Practice Projects
 
-Collection of beginner C programs to practice core programming concepts:
-arrays, loops, pointers, bitwise operations, pattern printing, prime algorithms, and more.
+This repository contains my practice codes written in C language — small programs and logic-building exercises I’m using to improve my programming skills.
 
-## Structure
-- `patterns/` — pattern-printing programs (triangles, shapes)
-- `maths/` — number-theory programs (primes, Fibonacci)
-- `bitwise/` — bitwise operation examples
-- `utilities/` — small utilities (calculator, digit sorter)
+## 📁 Categories
+- **Patterns** – Alphabet triangle, star pyramids, etc.
+- **Math Programs** – Fibonacci series, distance, absolute value.
+- **Arrays** – 2D arrays and sorting.
+- **Prime Numbers** – Prime number finder up to N, etc.
 
-## How to compile and run
-Compile a program with `gcc`:
-```bash
-gcc path/to/file.c -o program
-./program
+## 💻 Example
+Example output of one program (`alphabet_triangle.c`):
 
