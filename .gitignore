@@ -1,0 +1,16 @@
+# Ignore compiled object files and executables
+*.o
+*.out
+*.exe
+a.out
+
+# Ignore all files by default
+*
+
+# But keep .c source files
+!*.c
+# Keep header files
+!*.h
+# Keep README and .gitignore itself
+!README.md
+!.gitignore
