@@ -1,15 +1,12 @@
-
 #include <stdio.h>
-#include <string.h>
 int main() {
-  char arr[] = "123";
-  int temp = 1;
-  int num = 0;
-  for (int i = strlen(arr) - 1; i >= 0; i--) {
+  FILE *fp;
+  int arr[4];
+  fp = fopen("hi.txt", "r");
 
-    num = num + (arr[i] - 48) * temp;
-    temp *= 10;
-  }
+  fprintf(fp, "%d %d %d %d", &arr[0], &arr[1], &arr[2], &arr[3]);
+  for (int i = 0; i <= 3; i++)
+    printf("%d\n", arr[i]);
 
-  printf("%d ", num);
+  fclose(fp);
 }
